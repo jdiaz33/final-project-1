@@ -34,25 +34,79 @@ html {
 	width: 960px;
 	margin-left: auto;
 	margin-right: auto;
-	font-size: 20px;
+	
 	line-height: 43px;
 }
 #branding {
 	width: 960px;
 	height: 85px;
-	background-color: red;
+	background-image:url(../img/EMP.gif);
 }
 #menu {
-	
-	
-	height: 50px;
-		
+	height: 50px;		
 	background-color: #3f8252;
 }
-#wrapper2{
+#menu li {
+	margin: 35px;
+	display: inline;
+	font-size: 16px;
+	font-family:'Open Sans', Calibri;
+	letter-spacing: 2px;
+	font-weight: Semibold;
+}
+#menulist {
+	text-align: center;
+}
+a:hover, a:visited, a:link, a:active {
+	text-decoration: none;
+	color: white;
+	
+}
+#video {
 	width: 960px;
-	margin-left: auto;
-	margin-right: auto;
+	height: 475px;
+}
+#callus {
+	font-size: 37px;
+	font-family: Helvetica;
+	color: #5d5d5d;	
+	text-align: center;
+	line-height: 70%;
+}
+#serving {
+	font-size: 17px;
+	font-family: 'Open Sans', Calibri;
+	color: #538c62;
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: 8px;
+	line-height: 0%;
+}
+#fb {
+	width: 960px;
+	height: 50px;
+	background-image:url(../img/fb.gif);
+}
+#description {
+	width: 960px;
+	height: 265px;
+}
+#tables {
+	width: 960px;
+	height: 525px;
+	background-color: #7f8c8d;
+}
+#heating {
+	height: 405px;
+	background-color: #eef1f5;
+}
+#cooling {
+	height: 405px;
+	background-color: #2980b9;
+}
+#aboutus {
+	height: 890px;
+	background-color: #eef1f5;
 }
 /*
  * A better looking default horizontal rule
