@@ -34,7 +34,6 @@ html {
 	width: 960px;
 	margin-left: auto;
 	margin-right: auto;
-	
 	line-height: 43px;
 }
 #branding {
@@ -90,6 +89,20 @@ a:hover, a:visited, a:link, a:active {
 #description {
 	width: 960px;
 	height: 265px;
+}
+#welcome {
+	font-family: 'Open Sans', Calibri;
+	color: black;
+	font-size: 16.5px;
+	line-height: 160%;
+	margin-top: 35px;
+}
+#desc {
+	font-family: 'Open Sans', Calibri;
+	color: black;
+	line-height: 100%;
+	font-size: 17px;
+	margin-top: 5px;
 }
 #tables {
 	width: 960px;
