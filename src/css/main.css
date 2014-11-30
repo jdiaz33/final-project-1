@@ -93,16 +93,22 @@ a:hover, a:visited, a:link, a:active {
 #welcome {
 	font-family: 'Open Sans', Calibri;
 	color: black;
-	font-size: 16.5px;
+	font-size: 16px;
 	line-height: 160%;
 	margin-top: 35px;
+	position: absolute;
+	margin-right: 20px;
+	letter-spacing: -0.5px;
 }
-#desc {
+#lst {
+	display: inline-block;
+	float: right;
 	font-family: 'Open Sans', Calibri;
 	color: black;
-	line-height: 100%;
-	font-size: 17px;
-	margin-top: 5px;
+	font-size: 16px;
+	line-height: 160%;
+	margin-top:35px;
+	margin-left: 20px;
 }
 #tables {
 	width: 960px;
@@ -112,6 +118,11 @@ a:hover, a:visited, a:link, a:active {
 #heating {
 	height: 405px;
 	background-color: #eef1f5;
+}
+#heat {
+	font-family: 'Open Sans', Calibri;
+	color: #c0392b;
+	text-align: center;
 }
 #cooling {
 	height: 405px;
