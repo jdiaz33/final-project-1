@@ -113,7 +113,10 @@ a:hover, a:visited, a:link, a:active {
 #tables {
 	width: 960px;
 	height: 525px;
-	background-color: #7f8c8d;
+}
+#tables table tr th {
+	background-color: #7F8C8D;
+	color: white;
 }
 #heating {
 	height: 405px;
