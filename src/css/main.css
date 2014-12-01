@@ -113,10 +113,22 @@ a:hover, a:visited, a:link, a:active {
 #tables {
 	width: 960px;
 	height: 525px;
+	margin-top: -45px;
 }
 #tables table tr th {
 	background-color: #7F8C8D;
 	color: white;
+	font-family: 'Open Sans', Calibri;
+	font-size: 26px;
+	font-weight: normal;
+	letter-spacing: 9px;
+	padding: 12px 39px 12px 38px;
+}
+#tables table tr td {
+	background-color: #F7F7F7;
+	color: #969696;
+	font-family: 'Open Sans', Calibri;
+	padding: 0px 50px 0px 25px;
 }
 #heating {
 	height: 405px;
