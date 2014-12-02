@@ -138,6 +138,19 @@ a:hover, a:visited, a:link, a:active {
 	font-family: 'Open Sans', Calibri;
 	color: #c0392b;
 	text-align: center;
+	font-weight: Semibold;
+	letter-spacing: 9px;
+	font-size: 35px;
+	padding-top: 30px;
+}
+#warm {
+	font-family: 'Open Sans', Calibri;
+	color: #545556;
+	font-size: 16.5px;
+	text-align: center;
+	line-height: 150%;
+	margin-top: -25px;
+	margin-bottom: 35px;
 }
 #cooling {
 	height: 405px;
