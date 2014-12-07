@@ -38,7 +38,7 @@ html {
 }
 #branding {
 	width: 960px;
-	height: 85px;
+	height: 70px;
 	background-image:url(../img/EMP.gif);
 }
 #menu {
@@ -65,12 +65,20 @@ a:hover, a:visited, a:link, a:active {
 	width: 960px;
 	height: 475px;
 }
-#callus {
+#callus1 {
 	font-size: 37px;
-	font-family: Helvetica;
+	font-family: Helvetica, Calibri;
 	color: #5d5d5d;	
 	text-align: center;
 	line-height: 70%;
+}
+#callus2 {
+	font-size: 19px;
+	font-family: Helvetica, Calibri;
+	color: #989898;
+	text-align: center;
+	margin-top: -35px;
+	letter-spacing: -0.5px;
 }
 #serving {
 	font-size: 17px;
@@ -80,11 +88,14 @@ a:hover, a:visited, a:link, a:active {
 	text-align: center;
 	letter-spacing: 8px;
 	line-height: 0%;
+	margin-top: 25px;
+	margin-bottom: 45px;
 }
 #fb {
 	width: 960px;
 	height: 50px;
 	background-image:url(../img/fb.gif);
+	margin-top: 20px;
 }
 #description {
 	width: 960px;
@@ -95,7 +106,7 @@ a:hover, a:visited, a:link, a:active {
 	color: black;
 	font-size: 16px;
 	line-height: 160%;
-	margin-top: 35px;
+	margin-top: 30px;
 	position: absolute;
 	margin-right: 20px;
 	letter-spacing: -0.5px;
@@ -107,32 +118,59 @@ a:hover, a:visited, a:link, a:active {
 	color: black;
 	font-size: 16px;
 	line-height: 160%;
-	margin-top:35px;
+	margin-top:30px;
 	margin-left: 20px;
 }
-#tables {
-	width: 960px;
-	height: 525px;
-	margin-top: -45px;
+#table1 {	
+	color: white;
+	font-family: 'Open Sans', Calibri;
+	letter-spacing: 2.5px;
+	text-align: center;
+	font-size: 18px;
+	transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+	float: left;
+	margin-top: 190px;
+	margin-left: -250px;
 }
-#tables table tr th {
+#heat1 {
+	background-color: #C0392B;
+	width: 188px;
+}
+#cool1 {
+	background-color: #2980B9;
+	width: 343px;
+}
+#table1 table tr td {
+	border: 2px solid white;
+}
+#table2 {
+	width: 96%;
+	height: 525px;
+	float: right;
+	margin-top: -292px;
+}
+#table2 table tr th {
 	background-color: #7F8C8D;
 	color: white;
 	font-family: 'Open Sans', Calibri;
 	font-size: 26px;
 	font-weight: normal;
-	letter-spacing: 9px;
-	padding: 12px 39px 12px 38px;
+	letter-spacing: 7px;
+	padding: 12px 35px 12px 35px;
+	border: 2px solid white;
 }
-#tables table tr td {
+#table2 table tr td {
 	background-color: #F7F7F7;
 	color: #969696;
 	font-family: 'Open Sans', Calibri;
-	padding: 0px 50px 0px 25px;
+	padding: 1px 40px 0.5px 25px;
+	border: 2px solid white;
 }
 #heating {
 	height: 405px;
-	background-color: #eef1f5;
+	background-color: #EEF1F5;
+	margin-top: 515px;
 }
 #heat {
 	font-family: 'Open Sans', Calibri;
@@ -142,6 +180,8 @@ a:hover, a:visited, a:link, a:active {
 	letter-spacing: 9px;
 	font-size: 35px;
 	padding-top: 30px;
+	padding-bottom: -15px;
+	margin-bottom: 15px;
 }
 #warm {
 	font-family: 'Open Sans', Calibri;
@@ -149,7 +189,8 @@ a:hover, a:visited, a:link, a:active {
 	font-size: 16.5px;
 	text-align: center;
 	line-height: 150%;
-	margin-top: -25px;
+	margin-top: 5px;
+	padding-top: -15px;
 	margin-bottom: 35px;
 }
 #cooling {
@@ -188,7 +229,7 @@ a:hover, a:visited, a:link, a:active {
 #Us {
 	font-family: 'Open Sans', Calibri;
 	color: #545556;
-	font-size: 16.5px;
+	font-size: 16.4px;
 	text-align: center;
 	line-height: 150%;
 	margin-top: -20px;
